@@ -1,0 +1,83 @@
+#jack_img{
+	height: auto;
+	width: 50%;
+}
+
+#scar_img{
+	height: auto;
+	width: 90%;	
+}
+
+#pain_img{
+	height: auto;
+	width: 100%;
+}
+
+#jack{
+				
+	display: flex;
+	flex-justify: center;
+	border: solid;
+	background: linear-gradient(Brown , white 50%);
+}
+
+#scar{
+			
+	border: soid;
+	background: linear-gradient(grey , white 50%);
+	display: none;
+			
+}
+
+#pain{
+	display: flex;
+	flex-direction: center;
+	border: solid;
+	background: linear-gradient(OrangeRed , white 50%);
+	display: none;
+			}
+			
+p{
+	font-size: 1.9em;
+	font-family: 'My Soul', cursive;
+	text-shadow: 0px 1px white;
+}
+			
+#butns{padding-top: 3em;}
+
+.button {
+	position: relative;
+	background-color: #1C1C1C;
+	border: none;
+	font-size: 28px;
+	color: #FFFFFF;
+	padding: 20px;
+	width: 315px;
+	text-align: center;
+	transition-duration: 0.4s;
+	text-decoration: none;
+	overflow: hidden;
+	cursor: pointer;
+}
+			
+.button:after {
+	content: "";
+	background: #f1f1f1;
+	display: block;
+	position: absolute;
+	padding-top: 300%;
+	padding-left: 350%;
+	margin-left: -20px !important;
+	margin-top: -120%;
+	opacity: 0;
+	transition: all 0.8s
+	}
+
+.button:active:after {
+	padding: 0;
+	margin: 0;
+	opacity: 1;
+	transition: 0s
+}
+
+footer{padding-top: 44em;}
